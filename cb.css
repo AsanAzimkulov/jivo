@@ -18,10 +18,11 @@
   cursor: pointer;
 }
 
+
 @media(max-width: 768px) {
-  .jivocb-container {
+  /* .jivocb-container {
     display: none !important;
-  }
+  } */
 
   .button_cbcf {
     margin: 0px !important;
