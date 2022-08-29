@@ -19,6 +19,9 @@
 }
 
 @media(max-width: 768px) {
+  .jivocb {
+    display: none !important;
+  }
 
   .button_cbcf {
     margin: 0px !important;
