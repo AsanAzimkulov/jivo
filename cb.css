@@ -24,7 +24,7 @@
     margin: 0px !important;
     bottom: 75px !important;
     /*position Y*/
-    left: 50px !important;
+    left: 20px !important;
     /*position X*/
   }
 
@@ -63,8 +63,6 @@
 }
 
 .jivocb-wrap {
-  /* transition: 0.6s; */
-  /* transform-style: preserve-3d; */
   height: 100%;
 
   position: relative;
