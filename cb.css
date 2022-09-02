@@ -20,13 +20,18 @@
 
 
 @media(max-width: 768px) {
-  /* .jivocb-container {
-    display: none !important;
-  } */
+  .jivocb-container {
+    left: 20px !important;
+    bottom: 75px !important;
+  }
+
+  .jivocb-front {
+    left: 1px !important;
+  }
 
   .button_cbcf {
     margin: 0px !important;
-    bottom: 75px !important;
+    bottom: 20px !important;
     /*position Y*/
     left: 20px !important;
     /*position X*/
@@ -64,6 +69,17 @@
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
+
+}
+
+@media(max-width: 768px) {
+
+  .jivocb-container,
+  .jivocb-front,
+  .jivocb-back {
+    width: 65px;
+    height: 65px;
+  }
 }
 
 .jivocb-wrap {
